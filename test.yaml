@@ -7,3 +7,13 @@ Servers:
   - name: "Rainbow"
     port: 22
     Ip: "10.0.129.12"
+
+Cluster:
+  - name: "master-1"
+    network:
+      - name: "br0"
+        ip: "10.0.129.100"
+        dns: "10.0.0.1"
+        gateway: "10.0.0.1"
+        
+        
