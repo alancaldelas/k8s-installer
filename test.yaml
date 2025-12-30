@@ -1,4 +1,9 @@
+User: alan
+PrivateKeyPath: /home/alan/.ssh/id_rsa
 Servers:
   - name: "Orange"
     port: 22
-    Ip: "10.216.188.48"
+    Ip: "10.0.129.11"
+  - name: "Rainbow"
+    port: 22
+    Ip: "10.0.129.12"
